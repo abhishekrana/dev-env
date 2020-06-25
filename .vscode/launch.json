@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "module_name",
+            "type": "python",
+            "request": "launch",
+            // "preLaunchTask": "",
+            "program": "${workspaceFolder}/project_name/module_name/src/module_name/main.py",
+            // "args": [
+            //     "--output_dir",
+            //     "output"
+            // ],
+            // "postDebugTask": "",
+            "console": "integratedTerminal",
+            // "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
