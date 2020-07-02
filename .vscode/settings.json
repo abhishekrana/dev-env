@@ -43,34 +43,39 @@
         "120"
     ],
     "python.formatting.provider": "black",
-    "python.languageServer": "Microsoft",
-    "python.linting.flake8Args": [
-        "--max-line-length=120",
-        "--ignore=F841"
-    ],
-    "python.linting.flake8Enabled": true,
-    "python.linting.mypyArgs": [
-        "--ignore-missing-imports",
-        "--follow-imports=silent",
-        "--check-untyped-defs",
-        "--disallow-subclassing-any",
-        "--disallow-untyped-decorators",
-        "--no-implicit-optional",
-        "--strict-optional",
-        "--warn-redundant-casts",
-        "--warn-return-any",
-        "--warn-unused-ignores",
-        "--warn-unused-configs"
-    ],
-    "python.linting.mypyEnabled": true,
-    "python.linting.pycodestyleEnabled": false,
-    "python.linting.pydocstyleArgs": [
-        "--convention=google",
-        "--ignore=D100,D101,D102,D103,D104,D105,D106,D107,D213"
-    ],
-    "python.linting.pydocstyleEnabled": true,
-    "python.linting.pylintEnabled": false,
-    "python.pythonPath": "/usr/bin/python3.6",
+    // "python.languageServer": "Microsoft",
+    // "python.linting.flake8Args": [
+    //     "--max-line-length=120",
+    //     "--ignore=F841"
+    // ],
+    // "python.linting.flake8Enabled": true,
+    // "python.linting.mypyArgs": [
+    //     "--ignore-missing-imports",
+    //     "--follow-imports=silent",
+    //     "--check-untyped-defs",
+    //     "--disallow-subclassing-any",
+    //     "--disallow-untyped-decorators",
+    //     "--no-implicit-optional",
+    //     "--strict-optional",
+    //     "--warn-redundant-casts",
+    //     "--warn-return-any",
+    //     "--warn-unused-ignores",
+    //     "--warn-unused-configs"
+    // ],
+    // "python.linting.mypyEnabled": true,
+    // "python.linting.pycodestyleEnabled": false,
+    // "python.linting.pydocstyleArgs": [
+    //     "--convention=google",
+    //     "--ignore=D100,D101,D102,D103,D104,D105,D106,D107,D213"
+    // ],
+    // "python.linting.pydocstyleEnabled": true,
+    // "python.linting.pylintEnabled": false,
+    // "python.pythonPath": "/usr/bin/python3.6",
+    //"python.analysis.diagnosticMode": "workspace",
+    "python.analysis.extraPaths": ["project_name/module_name/src"],
+    "python.analysis.typeCheckingMode": "strict",
+    "python.languageServer": "Pylance",
+    "python.linting.pylintEnabled": true,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "terminal.integrated.env.linux": {
@@ -84,5 +89,5 @@
     "workbench.colorTheme": "Solarized Light",
     "workbench.editor.enablePreview": false,
     "workbench.sideBar.location": "right",
-    "workbench.tips.enabled": true
+    "workbench.tips.enabled": true,
 }
